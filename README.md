@@ -5,10 +5,6 @@
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
 
 
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How To Install osTicket with Prerequisites](https://www.youtube.com)
-
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
@@ -34,7 +30,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <img src="https://i.imgur.com/fMhOown.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-Item one is showing an image on remote desktop connect with the IP address I got from Azure so I can install Os Ticket system.
+"Image shows an image of a remote desktop connection using the IP address obtained  from Azure,  which is used to install OsTicket system."
 </p>
 
 <br />
@@ -49,14 +45,14 @@ Item one is showing an image on remote desktop connect with the IP address I got
 <br />
 </p>
 <p>
-Item one is demonstarting how I enable IIS (Internet Information Service). I went to the control panel,program and then IIS.
+"Image above demonstartes how to enable IIS (Internet Information Service). I navigated to the Control Panel, selected Programs clicked turn Windows features on or off; and then enable IIS."
 </p>
 <br />
 
 
 <img src="https://i.imgur.com/bmIsmZC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-Item two is showing an image is the PHP Manager being installed.
+"The above image shows the PHP Manager being installed."
 
 <br />
 </p>
@@ -64,14 +60,15 @@ Item two is showing an image is the PHP Manager being installed.
 
 <img src="https://i.imgur.com/GXuENdH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <p>
-Item two is an image of installing my SQl.My SQl is very important for logging into the OsTicking database
+"The image shows the installation of MYSQL. MySQL is essential for logging into the osTicket database."
+  
   <p>
 
 <br />
 
 <img src="https://i.imgur.com/TodoNLz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-Item 5 is showing an image of IIS manager, where the browser folder is located on the right. In the browser folder, browser 80 http is located. Once you click browser 80 http the osTicket systemshould launch. If the system isn't lauch it mean something was incorrectly done.
+"Image shows image  the IIS manager, where the 'Browser' folder is located on the right. Inside Browser folder, Browser 80 HTTP is located. Once you click browser 80 HTTP; the osTicket system should launch. If the system doesn't launch, it means something was incorrectly done.
 
 </p>
 
