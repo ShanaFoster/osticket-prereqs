@@ -90,7 +90,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   <img src="https://i.imgur.com/gnB8aBL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Item is showing images of HeidiSQL database and an image of information be put in the osticket system that I got from thw HeidiSQl. I can fill out the MySQL section of the Osticket application with the information from HeidiSql.
+"This image shows the HeidiSQL database and the information from the HeidiSQl being enetered into the osTicket system. I can use this information to fill out the MySQL section so the OsTicket application will launch properly."
 
   </p>
 <br />
@@ -98,7 +98,7 @@ Item is showing images of HeidiSQL database and an image of information be put i
 
 <img src="https://i.imgur.com/G3lg9HO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-Item is showing an image of the Osticket application install successfully.
+"The image above show the Osticket application installed successfully"
 </p>
 <br />
 
