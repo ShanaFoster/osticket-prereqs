@@ -79,7 +79,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/Ycfo1V2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Item four is showing an image of OsTicket being installed but the installed system is showing some disable items so I have to go back in the IIS mahager and go to PHP manager to enable the disable items so the OsTicking system will function properly.
+"This image shows the osTicket installation, but the installed system  has some disabled items. To resolve this, go back to the IIS manager, navigate to the PHP manager, and enable the disable items so that the OsTicket system function properly."
 </p>
 <br />
 
