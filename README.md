@@ -30,7 +30,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <img src="https://i.imgur.com/fMhOown.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-The image displays a Remote Desktop connection (RDP) session using the public IP address obtained from Mircosoft Azure, This connection is used to remotely access the virtual machine, which is used to installed OsTicket system."
+The image displays a Remote Desktop connection (RDP) session using the public IP address obtained from Mircosoft Azure, This connection is used to remotely access the virtual machine, which is used to installed OsTicket system.
 </p>
 
 <br />
@@ -52,7 +52,7 @@ The image above demonstartes how to enable IIS (Internet Information Service). I
 
 <img src="https://i.imgur.com/bmIsmZC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-"The above image shows the PHP Manager being installed."
+The above image shows the PHP Manager being installed.
 
 <br />
 </p>
@@ -98,7 +98,7 @@ This image shows the HeidiSQL database and the information from the HeidiSQl bei
 
 <img src="https://i.imgur.com/G3lg9HO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-The image above show the Osticket application installed successfully
+The image above show the Osticket application installed successfully.
 </p>
 <br />
 
