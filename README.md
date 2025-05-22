@@ -45,7 +45,7 @@ The image displays a Remote Desktop connection (RDP) session using the public IP
 <br />
 </p>
 <p>
-"Image above demonstartes how to enable IIS (Internet Information Service). I navigated to the Control Panel, selected Programs clicked turn Windows features on or off; and then enable IIS."
+The image above demonstartes how to enable IIS (Internet Information Service). I navigated to the Control Panel, selected Programs clicked turn Windows features on or off; and then enable IIS.
 </p>
 <br />
 
@@ -60,7 +60,7 @@ The image displays a Remote Desktop connection (RDP) session using the public IP
 
 <img src="https://i.imgur.com/GXuENdH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <p>
-"The image shows the installation of MYSQL. MySQL is essential for logging into the osTicket database."
+The image shows the installation of MYSQL. MySQL is essential for logging into the osTicket system. MySQL serves as the database backend. It is required to log in and manage the osTicket database effectively.
   
   <p>
 
@@ -68,7 +68,7 @@ The image displays a Remote Desktop connection (RDP) session using the public IP
 
 <img src="https://i.imgur.com/TodoNLz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-"Image shows image  the IIS manager, where the 'Browser' folder is located on the right. Inside Browser folder, Browser 80 HTTP is located. Once you click browser 80 HTTP; the osTicket system should launch. If the system doesn't launch, it means something was incorrectly done.
+The image display the IIS manager, where the 'Browser' folder is located on the right. Inside Browser folder, Browser 80 HTTP is located. Once you click browser 80 HTTP; the osTicket system should launch. If the system doesn't launch, it means something was incorrectly done.
 
 </p>
 
@@ -79,7 +79,7 @@ The image displays a Remote Desktop connection (RDP) session using the public IP
 <img src="https://i.imgur.com/Ycfo1V2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-"This image shows the osTicket installation, but the installed system  has some disabled items. To resolve this, go back to the IIS manager, navigate to the PHP manager, and enable the disable items so that the OsTicket system function properly."
+This image shows the osTicket installation, but the installed system  has some disabled items. To resolve this, go back to the IIS manager, navigate to the PHP manager, and enable the disable items so that the OsTicket system function properly.
 </p>
 <br />
 
@@ -90,7 +90,7 @@ The image displays a Remote Desktop connection (RDP) session using the public IP
   <img src="https://i.imgur.com/gnB8aBL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-"This image shows the HeidiSQL database and the information from the HeidiSQl being enetered into the osTicket system. I can use this information to fill out the MySQL section so the OsTicket application will launch properly."
+This image shows the HeidiSQL database and the information from the HeidiSQl being enetered into the osTicket system. I can use this information to fill out the MySQL section so the OsTicket application will launch properly.
 
   </p>
 <br />
@@ -98,7 +98,7 @@ The image displays a Remote Desktop connection (RDP) session using the public IP
 
 <img src="https://i.imgur.com/G3lg9HO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-"The image above show the Osticket application installed successfully"
+The image above show the Osticket application installed successfully
 </p>
 <br />
 
