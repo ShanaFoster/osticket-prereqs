@@ -30,7 +30,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <img src="https://i.imgur.com/fMhOown.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-"Image shows an image of a remote desktop connection using the IP address obtained  from Azure,  which is used to install OsTicket system."
+The image displays a Remote Desktop connection (RDP) session using the public IP address obtained from Mircosoft Azure, This connection is used to remotely access the virtual machine, which is used to installed OsTicket system."
 </p>
 
 <br />
