@@ -17,12 +17,15 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
-- Item 6
+- Remote Desktop
+- Enabling IIS ( Internet Information service)
+- Installation of the PHP Manager
+- Installation of MySQL
+- Display of The IIS manager where the Browser 80 http to launch the Osticket application
+- Enable appliacte in IIS, navigate to the IIS and selected the 
+  PHP manager to enable what was needed to properly installed the OsTicket
+- Image of HediSQl database displaying information to correctly launch the OsTicket application 
+- OsTicket successful install showing both Agent and User urls
 
 <h2>Installation Steps</h2>
 
