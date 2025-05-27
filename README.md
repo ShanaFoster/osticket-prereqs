@@ -18,7 +18,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>List of Prerequisites</h2>
 
 - Remote Desktop
-- Enabling IIS ( Internet Information service)
+- Enabled IIS ( Internet Information service)
+- Enabled CGI
 - Installation of the PHP Manager
 - Installation of MySQL
 - Display of The IIS manager where the Browser 80 http to launch the Osticket application
@@ -52,7 +53,18 @@ The image above demonstartes how to enable IIS (Internet Information Service). I
 </p>
 <br />
 
+<img src="https://i.imgur.com/KiKYDF0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
 
+
+<img src="https://i.imgur.com/PgZPu1v.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
+
+</p>
+
+The images above shows CGI being enabled
+
+
+</p>
+<br />
 <img src="https://i.imgur.com/bmIsmZC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 The above image shows the PHP Manager being installed.
