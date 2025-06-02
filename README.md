@@ -106,6 +106,9 @@ The above image shows all the applications needs to configure the OsTicket syste
 
 ![image](https://github.com/user-attachments/assets/6097191d-854e-4c1e-b219-c2373f326e42)
 
+![image](https://github.com/user-attachments/assets/6a91c388-27fa-4c86-ab42-5b9922e3acf2)
+
+
 <br />
 </p>
 The image shows the installation of MYSQL. MySQL is essential for logging into the osTicket system. MySQL serves as the database backend. It is required to log in and manage the osTicket database effectively.
@@ -182,12 +185,19 @@ This image shows the osTicket installation, but the installed system  has some d
 
 ![image](https://github.com/user-attachments/assets/7b50767c-cedb-4982-b76a-927d8d378e2c)
 
-![image](https://github.com/user-attachments/assets/b3fcdae6-f61d-4aee-bd4a-03c5d202e2f8)
+![image](https://github.com/user-attachments/assets/726e0f15-a742-4b5b-88eb-54f980b80287)
+
+![image](https://github.com/user-attachments/assets/5b0124de-b6b1-403a-b571-667e1c1129f0)
 
 
   </p>
 <br />
-  <img src="https://i.imgur.com/gnB8aBL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+![image](https://github.com/user-attachments/assets/c7a57be6-9d1d-41de-924c-3c30a7e19e9f)
+
+  </p>
+<br />
+
 </p>
 <p>
 This image shows the HeidiSQL database and the information from the HeidiSQl being enetered into the osTicket system. I can use this information to fill out the MySQL section so the OsTicket application will launch properly.
@@ -195,10 +205,12 @@ This image shows the HeidiSQL database and the information from the HeidiSQl bei
   </p>
 <br />
 
+![image](https://github.com/user-attachments/assets/804eb383-f9b3-473b-a377-7ee959e77c7d)
 
-<img src="https://i.imgur.com/G3lg9HO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+![image](https://github.com/user-attachments/assets/f13c0ae5-ba73-4fcf-8d69-52c501682f58)
 
-The image above show the Osticket application installed successfully.
+
+The image above show the OsTicket system successfully Configured.
 </p>
 <br />
 
