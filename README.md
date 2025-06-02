@@ -33,8 +33,22 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <br />
 
-<img src="https://i.imgur.com/fMhOown.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
+
+![image](https://github.com/user-attachments/assets/aca4c194-3abf-46a9-9365-0c6db79e8103)
+
+<br />
+</p>
+
+The image display is of the Windows 10 2022 64bit virtual machine being created in Microsoft Azure. The public IP address obtained from Mircosoft Azure, will then be used to connect to the remote desktop so we can install the neccessary application for the  installed OsTicket system.
+</p>
+<p>
+
+![image](https://github.com/user-attachments/assets/c6728959-b634-4728-bdf9-d0060ec3972c)
+
+<br />
+</p>
+<p>
 The image displays a Remote Desktop connection (RDP) session using the public IP address obtained from Mircosoft Azure, This connection is used to remotely access the virtual machine, which is used to installed OsTicket system.
 </p>
 
@@ -44,53 +58,100 @@ The image displays a Remote Desktop connection (RDP) session using the public IP
 <p>
 
 <p>
-<img src="https://i.imgur.com/8OpsKO6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
 
+![image](https://github.com/user-attachments/assets/98981df7-cc36-4e74-ab68-acf443e039f6)
 
 <br />
 </p>
 <p>
+The image displays Loop back IP addressession  remotely access the virtual machine, which is used to installed OsTicket system.
+</p>
+<br />
+<p>
+
+![image](https://github.com/user-attachments/assets/3ee522ad-1a36-445c-93dc-e5fd61ab481d)
+
+  
 The image above demonstartes how to enable IIS (Internet Information Service). I navigated to the Control Panel, selected Programs clicked turn Windows features on or off; and then enable IIS.
 </p>
 <br />
 
-<img src="https://i.imgur.com/KiKYDF0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
 
-
-<img src="https://i.imgur.com/PgZPu1v.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
+![image](https://github.com/user-attachments/assets/532c9acb-8a29-41fc-9a75-0dea680d0faf)
 
 </p>
+<br />
 
-The images above shows CGI being enabled
+![image](https://github.com/user-attachments/assets/0b5cce87-ce3f-4302-8e74-2d6d17664703)
+
+
+
+
+The images above shows CGI being enabled and 
 
 
 </p>
 <br />
-<img src="https://i.imgur.com/bmIsmZC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-The above image shows the PHP Manager being installed.
+![image](https://github.com/user-attachments/assets/64f740d7-8045-4d5a-bb14-4b143767b21b)
 
-<br />
 </p>
-
-
-<img src="https://i.imgur.com/GXuENdH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <p>
+The above image shows all the applications needs to configure the OsTicket system.
+ </p>
+<br />
+
+
+![image](https://github.com/user-attachments/assets/82f36098-e340-4936-adba-c4d456f22ce4)
+
+![image](https://github.com/user-attachments/assets/9ad66897-d3eb-4afb-8dda-bf250cd55272)
+
+![image](https://github.com/user-attachments/assets/424d9f28-e7ef-43b1-b35a-a8519b4bd984)
+
+![image](https://github.com/user-attachments/assets/6097191d-854e-4c1e-b219-c2373f326e42)
+
+<br />
+</p>
 The image shows the installation of MYSQL. MySQL is essential for logging into the osTicket system. MySQL serves as the database backend. It is required to log in and manage the osTicket database effectively.
   
   <p>
-
 <br />
 
 <img src="https://i.imgur.com/TodoNLz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-
-The image display the IIS manager, where the 'Browser' folder is located on the right. Inside Browser folder, Browser 80 HTTP is located. Once you click browser 80 HTTP; the osTicket system should launch. If the system doesn't launch, it means something was incorrectly done.
-
+<br />
 </p>
-
+The image display the IIS manager, where the 'Browser' folder is located on the right. Inside Browser folder, Browser 80 HTTP is located. Once you click browser 80 HTTP; the osTicket system should launch. If the system doesn't launch, it means something was incorrectly done.
 
 <br />
 </p>
+
+![image](https://github.com/user-attachments/assets/f695da83-2024-457f-947a-60cf670bfd11)
+
+
+![image](https://github.com/user-attachments/assets/6a57524b-5cda-4618-bcbb-50893d2d9eba)
+
+
+The image display the IIS manager being open and run as administrator 
+
+</p>
+
+![image](https://github.com/user-attachments/assets/ed84566a-de64-4385-a478-4f14360eeec9)
+
+
+![image](https://github.com/user-attachments/assets/68ac364b-0ada-458c-9cea-3d6fbc549a94)
+
+
+
+</p>
+<br />
+
+his image shows the osTicket installation, but the installed system  has some disabled items. To resolve this, go back to the IIS manager, navigate to the PHP manager, and enable the disable items so that the OsTicket system function properly.
+</p>
+
+</p>
+<br />
+
+<p>
 
 <img src="https://i.imgur.com/Ycfo1V2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
