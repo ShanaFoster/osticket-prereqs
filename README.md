@@ -18,10 +18,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Remote Desktop
-- Enabled IIS ( Internet Information service)
-- Enabled CGI
-- Installation of the PHP Manager
+- Microsoft Azure Virtual Machine ( Windows 10 2022 64 bit)
+- Log into Remote Desktop
+- Enabled IIS ( Internet Information service) and CGI
+- OsTicket Application Files
+- Installation of the PHP Manager, Rewrite
 - Installation of MySQL
 - Display of The IIS manager where the Browser 80 http to launch the Osticket application
 - Enable appliacte in IIS, navigate to the IIS and selected the 
