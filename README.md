@@ -134,13 +134,15 @@ The image above shows the IIS Manager opened as an administrator. It also displa
 </p>
 <p>
 
+![image](https://github.com/user-attachments/assets/30f77e51-36d4-490a-86c9-a04bf2fab63d)
+
 ![image](https://github.com/user-attachments/assets/15f97f48-67b1-43e5-b6fc-0fcfec60b339)
 
 ![image](https://github.com/user-attachments/assets/24473d41-57fd-4b03-934a-c741cb8c684d)
 
 </p>
 <br />
-The images above demonstrates the Osticket being installed and launched. To install the osTicket, I navigate to the osTicket installation file, extract all contents from osTicket-v1.15.8.zip.This created a second osTicket folder. Iinside that folder, I located upload folder.
+The images above demonstrates the Osticket being installed and launched. To install the osTicket, I navigate to the osTicket installation file, extract all contents from osTicket-v1.15.8.This created a second osTicket folder. Iinside that folder, I located upload folder.
 
 I then navigated to the C:drive > Inetpub > wwwroot and I copied the upload folder into wwwrooot. After that, I rename the upload folder to osTicket.
 
@@ -175,7 +177,9 @@ The images shows the osTicket system correctly launch but there are some applica
 
 ![image](https://github.com/user-attachments/assets/846d0fcd-6f12-49b3-b8c9-bb4f34bb2a29)
 
-The image above demonstrates the Browser folder, which is located on the right.  This folder is where osTiccket is loaded from. To load osTicket, I navigate to Sites > Default Site > osTicket, then select Browse 80 HTTP launch osTicket system. If the system doesn't launch, it means something was configured incorrectly.
+The image above shows Everyone has been granted permission to make changes to osTicket system.
+to do this, I navigated to the c:drive,inetpub\wwwroot\osTicket\include\ost-config.php > properties> secuirty.I remove inheritance and then add new permission. In the principal window, I chose Everyone, then select full control then ok to apply the changes.
+
 <br />
 </p>
 <p>
@@ -204,8 +208,16 @@ The image above demonstrates the Browser folder, which is located on the right. 
 
 </p>
 <p>
-This image shows the HeidiSQL database and the information from the HeidiSQl being enetered into the osTicket system. I can use this information to fill out the MySQL section so the OsTicket application will launch properly.
+The image above shows the setup for OsTicket,I entered the Help Desk name and Admin User information. After filling in the required fields, I navigated to the Database Settings section. 
+This is where the HeidiSQL database is needed to complete the setup. I installed the HeidiSQL application which is located in the osTicket installation folder. Once HeidiSQL was installed, I opened it,create a new connection and entered the Username and Password (both sets as root), which I had configured in MySQL server. 
+Then, I create a database call osTicket. to do this, I navigated to the dophin icon in the HeidiSQL application, selected Create New > Database, named it osTicket, and clicked Ok to apply the changes. 
 
+ I then returned to the osTicket setup screen and entered the foolowing information below in the database.
+ - MYSQL Database : osTicket
+ - MySQL User : root
+ - MySQL Password : root
+  
+Then, I clicked install now to complete the osTicket system setup.
   </p>
 <br />
 
