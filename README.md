@@ -134,16 +134,21 @@ The image above shows the IIS Manager opened as an administrator. It also displa
 </p>
 <p>
 
+![image](https://github.com/user-attachments/assets/15f97f48-67b1-43e5-b6fc-0fcfec60b339)
+
 ![image](https://github.com/user-attachments/assets/24473d41-57fd-4b03-934a-c741cb8c684d)
 
 </p>
 <br />
-The image above demonstrates the Browser folder, which is located on the right.  This folder is where osTiccket is loaded from. To load osTicket, I navigate to Sites > Default Site > osTicket, then select Browse 80 HTTP launch osTicket system. If the system doesn't launch, it means something was configured incorrectly.
+The images above demonstrates the Osticket being installed and launched. To install the osTicket, I navigate to the osTicket installation file, extract all contents from osTicket-v1.15.8.zip.This created a second osTicket folder. Iinside that folder, I located upload folder.
 
-<p>
-  
-</p>
+I then navigated to the C:drive > Inetpub > wwwroot and I copied the upload folder into wwwrooot. After that, I rename the upload folder to osTicket.
+
+Next I opened IIS manager, reload the server by stoping and restarting it. To launch osTicket, I navigated to Sites > Default Site > osTicket, then select Browse 80 HTTP launch osTicket system. If the system doesn't launch, it means something was configured incorrectly.
+
 <br />
+</p>
+<p>
   
 ![image](https://github.com/user-attachments/assets/7d98efa0-5d8b-47a8-bf57-4971a0c777f5)
 </p>
@@ -152,12 +157,29 @@ The image above demonstrates the Browser folder, which is located on the right. 
 ![image](https://github.com/user-attachments/assets/3a86aa01-4ae4-46b6-bd8f-92fae2ef3bc1)
 
 </p>
-<p>
-This image shows the osTicket installation, but the installed system  has some disabled items. To resolve this, go back to the IIS manager, navigate to the PHP manager, and enable the disable items so that the OsTicket system function properly.
-</p>
 <br />
+The images shows the osTicket system correctly launch but there are some application that are disable that should be enable for that osTicket to properly function.  To enable the required disabled items. I naviagte to IIS manager, select to the PHP manager, and enable the disable items:
+- php_imap.dll
+- php_intl.dll
+- php_opcache.dll
 
+<br />
+</p>
+<p>
+  
+![image](https://github.com/user-attachments/assets/715691f0-af77-4206-8585-a63ff8c36576)
 
+![image](https://github.com/user-attachments/assets/e1f6d975-29b5-4c2b-a308-242ed4607de5)
+
+![image](https://github.com/user-attachments/assets/c98b9dcc-4f92-4e6e-8b02-48ade721dce6)
+
+![image](https://github.com/user-attachments/assets/846d0fcd-6f12-49b3-b8c9-bb4f34bb2a29)
+
+The image above demonstrates the Browser folder, which is located on the right.  This folder is where osTiccket is loaded from. To load osTicket, I navigate to Sites > Default Site > osTicket, then select Browse 80 HTTP launch osTicket system. If the system doesn't launch, it means something was configured incorrectly.
+<br />
+</p>
+<p>
+  
 ![image](https://github.com/user-attachments/assets/f331b37f-0a69-4280-a31e-d08e31d6d8c9)
 
 ![image](https://github.com/user-attachments/assets/bee8c596-001b-4597-8485-b258ea2b6a7e)
