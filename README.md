@@ -21,14 +21,13 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Microsoft Azure Virtual Machine ( Windows 10 2022 64 bit)
 - Log into Remote Desktop
 - Enabled IIS ( Internet Information service) and CGI
-- OsTicket Application Files
-- Installation of the PHP Manager, Rewrite
-- Installation of MySQL
-- Display of The IIS manager where the Browser 80 http to launch the Osticket application
-- Enable appliacte in IIS, navigate to the IIS and selected the 
-  PHP manager to enable what was needed to properly installed the OsTicket
-- Image of HediSQl database displaying information to correctly launch the OsTicket application 
-- OsTicket successful install showing both Agent and User urls
+- OsTicket Installation Files
+- Registered PHP Manager
+- Launch osTicket and enbled the disabled application in the PHP Manager
+- Add permission for Everyone to again access to osTicket
+- Setup OsTicket with Help Desktop and Admin information
+- Installed HediSQl database and in fill in the required information
+- OsTicket successful installed showing both Agent and User urls
 
 <h2>Installation Steps</h2>
 
