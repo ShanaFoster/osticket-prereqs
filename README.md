@@ -226,7 +226,7 @@ Then, I clicked install now to complete the osTicket system setup.
 ![image](https://github.com/user-attachments/assets/f13c0ae5-ba73-4fcf-8d69-52c501682f58)
 
 
-The image above show the OsTicket system successfully Configured.
+The image above shows that the osTicket system has been successfully configured.
 </p>
 <br />
 
