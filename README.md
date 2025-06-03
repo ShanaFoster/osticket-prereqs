@@ -37,66 +37,57 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 
 ![image](https://github.com/user-attachments/assets/aca4c194-3abf-46a9-9365-0c6db79e8103)
-
 <br />
 </p>
-The image display is of the Windows 10 2022 64bit virtual machine being created in Microsoft Azure. The public IP address obtained from Mircosoft Azure, will then be used to connect to the remote desktop so we can install the neccessary application for the  installed OsTicket system.
+The image displayed shows the creation of a Windows 10 2022 64-bit virtual machine in Microsoft Azure. The public IP address obtained from Mircosoft Azure will be used to connect via Remote Desktop, allowing me to install the necessary applications for the OsTicket system.
+
+<br />
 </p>
 <p>
 
 ![image](https://github.com/user-attachments/assets/c6728959-b634-4728-bdf9-d0060ec3972c)
+<br />
+</p>
+The above image shows a Remote Desktop protocol (RDP) session using the public IP address obtained from Mircosoft Azure. This connection is used to remotely access the virtual machine, where the OsTicket system will be installed.
 
 <br />
 </p>
 <p>
-The image displays a Remote Desktop connection (RDP) session using the public IP address obtained from Mircosoft Azure, This connection is used to remotely access the virtual machine, which is used to installed OsTicket system.
+
+![image](https://github.com/user-attachments/assets/64f740d7-8045-4d5a-bb14-4b143767b21b)
+<br />
 </p>
+The image above shows all the applications required to configure the osTicket system. Fisrt, download the osTicket installation file. Then, open folder,drag it to the desktop, and extract all the files.
 
 <br />
 </p>
-
 <p>
-
-<p>
-
+  
 ![image](https://github.com/user-attachments/assets/98981df7-cc36-4e74-ab68-acf443e039f6)
+<br />
+</p>
+The display is shows that the web server failed to connect. I used the loopback IP address (127.0.0.1) to test the connection before enabling IIS (Internet Information Service).
 
 <br />
 </p>
-<p>
-The image displays Loop back IP addressession  remotely access the virtual machine, which is used to installed OsTicket system.
-</p>
-<br />
 <p>
 
 ![image](https://github.com/user-attachments/assets/3ee522ad-1a36-445c-93dc-e5fd61ab481d)
 
-  
-The image above demonstartes how to enable IIS (Internet Information Service). I navigated to the Control Panel, selected Programs clicked turn Windows features on or off; and then enable IIS.
-</p>
-<br />
-
-
 ![image](https://github.com/user-attachments/assets/532c9acb-8a29-41fc-9a75-0dea680d0faf)
-
-</p>
-<br />
 
 ![image](https://github.com/user-attachments/assets/0b5cce87-ce3f-4302-8e74-2d6d17664703)
 
 
-The images above shows CGI being enabled and 
-
-</p>
 <br />
+</p>
+The images above demonstrate how to enable IIS (Internet Information Service) and CGI. I enable IIS by navigating to the Control Panel > programs > Turn Windows features on or off, then select Internet Information Services.
 
-![image](https://github.com/user-attachments/assets/64f740d7-8045-4d5a-bb14-4b143767b21b)
+To enable CGI, I navigate to IIS > Application Development > Application Development Features, then select CGI. After completing the steps, I returned to the web server to check the conection.
 
+<br />
 </p>
 <p>
-The above image shows all the applications needs to configure the OsTicket system.
- </p>
-<br />
 
 
 ![image](https://github.com/user-attachments/assets/82f36098-e340-4936-adba-c4d456f22ce4)
@@ -109,29 +100,21 @@ The above image shows all the applications needs to configure the OsTicket syste
 
 ![image](https://github.com/user-attachments/assets/6a91c388-27fa-4c86-ab42-5b9922e3acf2)
 
-
 <br />
 </p>
-The image shows the installation of MYSQL. MySQL is essential for logging into the osTicket system. MySQL serves as the database backend. It is required to log in and manage the osTicket database effectively.
+The images display the applications required to configure the osTicketing system:
+-PHPManagerForIIS_V1.5.0, 
+-Rewrite_amd64_en-US, 
+-VC_redist.x86
+-MySQL-5.5.62-win32
+ The display also shows essential information in the MySQL server, including the username and password (root), which is required to configure the osTicket system in the HeidiSQL.
   
-  <p>
-<br />
-
-<img src="https://i.imgur.com/TodoNLz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 </p>
-The image display the IIS manager, where the 'Browser' folder is located on the right. Inside Browser folder, Browser 80 HTTP is located. Once you click browser 80 HTTP; the osTicket system should launch. If the system doesn't launch, it means something was incorrectly done.
-
-<br />
-</p>
+<p>
 
 ![image](https://github.com/user-attachments/assets/f695da83-2024-457f-947a-60cf670bfd11)
 
-
-
-The image display the IIS manager being open and run as administrator 
-
-</p>
 
 ![image](https://github.com/user-attachments/assets/f6221581-68b5-4c26-b859-f6bb2546da11)
 
@@ -142,23 +125,21 @@ The image display the IIS manager being open and run as administrator
 ![image](https://github.com/user-attachments/assets/68ac364b-0ada-458c-9cea-3d6fbc549a94)
 
 
-
 </p>
 <br />
 
-his image shows the osTicket installation, but the installed system  has some disabled items. To resolve this, go back to the IIS manager, navigate to the PHP manager, and enable the disable items so that the OsTicket system function properly.
-</p>
-
-</p>
+The image above shows the IIS Manager opened as an administrator. It also display the PHP Manager. i navigate to the PHP Manager and select Register PHP Manager. To register it, I browse to the executable file php-cgi.exe located on the C:drive. After registering PHP Manager, I stop and then restart the web server to apply the changes.
+    
 <br />
-
+</p>
 <p>
 
 ![image](https://github.com/user-attachments/assets/24473d41-57fd-4b03-934a-c741cb8c684d)
 
 </p>
 <br />
-The image display the IIS manager, where the 'Browser' folder is located on the right. Inside Browser folder, Browser 80 HTTP is located. Once you click browser 80 HTTP; the osTicket system should launch. If the system doesn't launch, it means something was incorrectly done.
+The image above demonstrates the Browser folder, which is located on the right.  This folder is where osTiccket is loaded from. To load osTicket, I navigate to Sites > Default Site > osTicket, then select Browse 80 HTTP launch osTicket system. If the system doesn't launch, it means something was configured incorrectly.
+
 <p>
   
 </p>
