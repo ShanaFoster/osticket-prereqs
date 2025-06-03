@@ -27,7 +27,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Add permission for Everyone to again access to osTicket
 - Setup OsTicket with Help Desktop and Admin information
 - Installed HediSQl database and in fill in the required information
-- OsTicket successful installed showing both Agent and User urls
+- OsTicket successfully installed showing both Agent and User urls
 
 <h2>Installation Steps</h2>
 
@@ -38,7 +38,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 ![image](https://github.com/user-attachments/assets/aca4c194-3abf-46a9-9365-0c6db79e8103)
 <br />
 </p>
-The image displayed shows the creation of a Windows 10 2022 64-bit virtual machine in Microsoft Azure. The public IP address obtained from Mircosoft Azure will be used to connect via Remote Desktop, allowing me to install the necessary applications for the OsTicket system.
+The image displayed shows the creation of a Windows 10 2022 64-bit virtual machine in Microsoft Azure. The public IP address obtained from Mircosoft Azure will be used to connect via Remote Desktop, allowed me to installed the necessary applications for the osTicket system.
 
 <br />
 </p>
@@ -47,7 +47,7 @@ The image displayed shows the creation of a Windows 10 2022 64-bit virtual machi
 ![image](https://github.com/user-attachments/assets/c6728959-b634-4728-bdf9-d0060ec3972c)
 <br />
 </p>
-The above image shows a Remote Desktop protocol (RDP) session using the public IP address obtained from Mircosoft Azure. This connection is used to remotely access the virtual machine, where the OsTicket system will be installed.
+The above image shows a Remote Desktop protocol (RDP) session using the public IP address obtained from Mircosoft Azure. This connection is used to remotely access the virtual machine, where the osTicket system will be installed.
 
 <br />
 </p>
@@ -56,7 +56,7 @@ The above image shows a Remote Desktop protocol (RDP) session using the public I
 ![image](https://github.com/user-attachments/assets/64f740d7-8045-4d5a-bb14-4b143767b21b)
 <br />
 </p>
-The image above shows all the applications required to configure the osTicket system. Fisrt, download the osTicket installation file. Then, open folder,drag it to the desktop, and extract all the files.
+The image above shows all the applications required to configure the osTicket system. First, download the osTicket installation file. Then, open folder,drag it to the desktop, and extract all the files.
 
 <br />
 </p>
@@ -65,7 +65,7 @@ The image above shows all the applications required to configure the osTicket sy
 ![image](https://github.com/user-attachments/assets/98981df7-cc36-4e74-ab68-acf443e039f6)
 <br />
 </p>
-The display is shows that the web server failed to connect. I used the loopback IP address (127.0.0.1) to test the connection before enabling IIS (Internet Information Service).
+This display shows that the web server failed to connect. I used the loopback IP address (127.0.0.1) to test the connection before enabling IIS (Internet Information Service).
 
 <br />
 </p>
@@ -82,7 +82,7 @@ The display is shows that the web server failed to connect. I used the loopback 
 </p>
 The images above demonstrate how to enable IIS (Internet Information Service) and CGI. I enable IIS by navigating to the Control Panel > programs > Turn Windows features on or off, then select Internet Information Services.
 
-To enable CGI, I navigate to IIS > Application Development > Application Development Features, then select CGI. After completing the steps, I returned to the web server to check the conection.
+To enable CGI, I navigated to IIS > Application Development > Application Development Features, then select CGI. After completing the steps, I returned to the web server to check the conection.
 
 <br />
 </p>
@@ -106,7 +106,7 @@ The images display the applications required to configure the osTicketing system
 -Rewrite_amd64_en-US, 
 -VC_redist.x86
 -MySQL-5.5.62-win32
- The display also shows essential information in the MySQL server, including the username and password (root), which is required to configure the osTicket system in the HeidiSQL.
+The display also shows essential information in the MySQL server, including the username and password (root), which is required to help setup the osTicket system in the HeidiSQL database.
   
 <br />
 </p>
@@ -141,7 +141,7 @@ The image above shows the IIS Manager opened as an administrator. It also displa
 
 </p>
 <br />
-The images above demonstrates the Osticket being installed and launched. To install the osTicket, I navigate to the osTicket installation file, extract all contents from osTicket-v1.15.8.This created a second osTicket folder. Iinside that folder, I located upload folder.
+The images above demonstrates the osticket being installed and launched. To install the osTicket, I navigate to the osTicket installation file, extract all contents from osTicket-v1.15.8.This created a second osTicket folder. Inside that folder, I located upload folder.
 
 I then navigated to the C:drive > Inetpub > wwwroot and I copied the upload folder into wwwrooot. After that, I rename the upload folder to osTicket.
 
@@ -177,7 +177,7 @@ The images shows the osTicket system correctly launch but there are some applica
 ![image](https://github.com/user-attachments/assets/846d0fcd-6f12-49b3-b8c9-bb4f34bb2a29)
 
 The image above shows Everyone has been granted permission to make changes to osTicket system.
-to do this, I navigated to the c:drive,inetpub\wwwroot\osTicket\include\ost-config.php > properties> secuirty.I remove inheritance and then add new permission. In the principal window, I chose Everyone, then select full control then ok to apply the changes.
+to do this, I navigated to the c:drive,inetpub\wwwroot\osTicket\include\ost-config.php > properties> secuirty.I remove inheritance and then add new permission. In the Principal window, I chose Everyone, then select Full Control,then ok to apply the changes.
 
 <br />
 </p>
