@@ -47,7 +47,7 @@ The image displayed shows the creation of a Windows 10 2022 64-bit virtual machi
 ![image](https://github.com/user-attachments/assets/c6728959-b634-4728-bdf9-d0060ec3972c)
 <br />
 </p>
-The above image shows a Remote Desktop protocol (RDP) session using the public IP address obtained from Mircosoft Azure. This connection is used to remotely access the virtual machine, where the osTicket system will be installed.
+Remote Desktop protocol (RDP) primarly uses Transmission Control Protocol (tcp) on port 3389). It enables a remote connection between a client and a host system, allowing users to control and access a device as if they were physcialy present. The image demonstrate an active desktop remote session using a public IP address prodived by Mircosoft Azure. This connection is used to remotely access the virtual machine.
 
 <br />
 </p>
