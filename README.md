@@ -106,7 +106,7 @@ To enable CGI, I navigated to IIS > Application Development > Application Develo
 
 <br />
 </p>
-The images display the applications required to configure the osTicketing system:
+osTicketing system is a web-based help desk system that require certain application to function properly. Below is a list of the applicatin rewuired:
 -PHPManagerForIIS_V1.5.0, 
 -Rewrite_amd64_en-US, 
 -VC_redist.x86
