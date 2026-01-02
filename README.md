@@ -68,7 +68,8 @@ osTicket is a cost-effective system for managing customer communication and supp
 ![image](https://github.com/user-attachments/assets/98981df7-cc36-4e74-ab68-acf443e039f6)
 <br />
 </p>
-This display shows that the web server failed to connect. I used the loopback IP address (127.0.0.1) to test the connection before enabling IIS (Internet Information Service).
+
+The loopback address is used to check the function of your computer’s network. The image above shows the loopback IP address (127.0.0.1) being used for testing before Internet Information Services (IIS) is enabled.
 
 <br />
 </p>
