@@ -47,6 +47,7 @@ Microsoft Azure is Microsoft’s cloud platform that lets you store and process 
 ![image](https://github.com/user-attachments/assets/c6728959-b634-4728-bdf9-d0060ec3972c)
 <br />
 </p>
+
 Remote Desktop Protocol (RDP) primarily uses Transmission Control Protocol (TCP) on port 3389. It enables a remote connection between a client and a host system, allowing users to control and access a device as if they were physically present. The image demonstrates an active Remote Desktop session using a public IP address provided by Microsoft Azure. This connection is used to remotely access the virtual machine.
 
 <br />
