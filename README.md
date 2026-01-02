@@ -87,7 +87,8 @@ The loopback address is used to check the function of your computer’s network.
 
 Internet Information Services (IIS) and Computer-Generated Imagery (CGI) can be enabled by navigating to Control Panel > Programs > Turn Windows features on or off, and then selecting Internet Information Services.
 
-To enable CGI, I navigated to IIS > Application Development > Application Development Features, and then selected CGI. After completing these steps, I returned to the web server to check the connection.
+To enable CGI, I navigated to IIS > Application Development > Application Development Features, and then selected CGI. After completing these steps, I returned to the web server to check the connection, as shown above, to confirm that IIS and CGI were enabled.
+
 <br />
 </p>
 <p>
