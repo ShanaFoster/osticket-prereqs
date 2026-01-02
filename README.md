@@ -56,7 +56,9 @@ Remote Desktop Protocol (RDP) primarily uses Transmission Control Protocol (TCP)
 ![image](https://github.com/user-attachments/assets/64f740d7-8045-4d5a-bb14-4b143767b21b)
 <br />
 </p>
-The image above shows all the applications required to configure the osTicket system. First, download the osTicket installation file. Then, open folder,drag it to the desktop, and extract all the files.
+
+osTicket is a cost-effective system for managing customer communication and support. It also keeps both customers and staff accountable. To use osTicket, some applications need to be installed. The image above shows the steps: first, download the osTicket installation file. Then, open the folder, drag it to the desktop, and extract all the files needed to install osTicket.
+
 
 <br />
 </p>
