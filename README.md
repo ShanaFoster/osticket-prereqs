@@ -110,9 +110,9 @@ To enable CGI, I navigated to IIS > Application Development > Application Develo
 
 The osTicketing system is a web-based help desk that needs several applications to work correctly. These include the list of application below with show the images above. 
 
--PHPManagerForIIS_V1.5.0
--Rewrite_amd64_en-US
--VC_redist.x86
+-PHPManagerForIIS_V1.5.0 >
+-Rewrite_amd64_en-US >
+-VC_redist.x86 >
 -MySQL-5.5.62-win32
 
 The system also shows important MySQL server details, such as the root username and password, which are needed to set up the osTicket database using HeidiSQL.
