@@ -136,8 +136,9 @@ The system also shows important MySQL server details, such as the root username 
 </p>
 <br />
 
-The image above shows the IIS Manager opened as an administrator. It also display the PHP Manager. i navigate to the PHP Manager and select Register PHP Manager. To register it, I browse to the executable file php-cgi.exe located on the C:drive. After registering PHP Manager, I stop and then restart the web server to apply the changes.
-    
+
+
+PHP Manager plays an important role in the osTicketing system. After installing it, registration is required. I open the Control Panel, select IIS, and run it as an administrator. Once IIS opens, I select Register PHP Manager and browse to the executable file php-cgi.exe located on the C: drive. After registering PHP Manager, I stop and restart the web server to apply the changes.
 <br />
 </p>
 <p>
