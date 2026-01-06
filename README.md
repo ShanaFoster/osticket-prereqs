@@ -115,7 +115,7 @@ The osTicketing system is a web-based help desk that needs several applications 
 -VC_redist.x86 ,
 -MySQL-5.5.62-win32
 
-The system also shows important MySQL server details, such as the root username and password, which are needed to set up the osTicket database using HeidiSQL.
+The system also shows important MySQL server details, such as the root username and password, which is required to setup the osTicket database using HeidiSQL.
   
 <br />
 </p>
@@ -151,6 +151,7 @@ PHP Manager plays an important role in the osTicketing system. After installing 
 
 </p>
 <br />
+
 The images above demonstrates the osticket being installed and launched. To install the osTicket, I navigate to the osTicket installation file, extract all contents from osTicket-v1.15.8.This created a second osTicket folder. Inside that folder, I located upload folder.
 
 I then navigated to the C:drive > Inetpub > wwwroot and I copied the upload folder into wwwrooot. After that, I rename the upload folder to osTicket.
