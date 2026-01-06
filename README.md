@@ -169,7 +169,7 @@ Next I opened IIS manager, reload the server by stoping and restarting it. To la
 
 </p>
 <br />
-The images shows the osTicket system correctly launch but there are some application that are disable that should be enable for that osTicket to properly function.  To enable the required disabled items. I naviagte to IIS manager, select to the PHP manager, and enable the disable items:
+After the osTicket is be launch some application were disable that should be enable for the osTicket to properly function.  To enable the required disabled items. I naviagte to IIS manager, select to the PHP manager, and enable the disable items:
 - php_imap.dll
 - php_intl.dll
 - php_opcache.dll
@@ -239,17 +239,17 @@ Giving access to everyone is not permitted in the real world for security reason
 
 </p>
 <p>
-The image above shows the setup for OsTicket,I entered the Help Desk name and Admin User information. After filling in the required fields, I navigated to the Database Settings section. 
-This is where the HeidiSQL database is needed to complete the setup. I installed the HeidiSQL application which is located in the osTicket installation folder. Once HeidiSQL was installed, I opened it,create a new connection and entered the Username and Password (both sets as root), which I had configured in MySQL server. 
-Then, I create a database call osTicket. to do this, I navigated to the dophin icon in the HeidiSQL application, selected Create New > Database, named it osTicket, and clicked Ok to apply the changes. 
+The HeidiSQL database is needed to complete the setting up of the osTicket system. After installing the HeidiSQL application which is located in the osTicket installation folder. I opened HeidiSQL to create a new connection and entered the Username and Password (both sets as root), which I had configured in MySQL server. 
+Then, I created a database call osTicket by navigating to the dophin icon in the HeidiSQL application, selected create new > Database, named it osTicket, and clicked Ok to apply the changes. 
 
- I then returned to the osTicket setup screen and entered the foolowing information below in the database.
+ I then returned to the osTicket setup screen and entered the following information below in the database.
  - MYSQL Database : osTicket
  - MySQL User : root
  - MySQL Password : root
   
 Then, I clicked install now to complete the osTicket system setup.
-  </p>
+
+ </p>
 <br />
 
 ![image](https://github.com/user-attachments/assets/804eb383-f9b3-473b-a377-7ee959e77c7d)
@@ -257,7 +257,7 @@ Then, I clicked install now to complete the osTicket system setup.
 ![image](https://github.com/user-attachments/assets/f13c0ae5-ba73-4fcf-8d69-52c501682f58)
 
 
-The image above shows that the osTicket system has been successfully configured.
+The image above shows the osTicket system has been successfully configured.
 </p>
 <br />
 
