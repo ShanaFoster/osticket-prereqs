@@ -59,7 +59,7 @@ Remote Desktop Protocol (RDP) primarily uses Transmission Control Protocol (TCP)
 <br />
 </p>
 
-osTicket is a cost-effective system for managing customer communication and support. It also keep both customer and staff accountable. To use osTicket, some applications need to be installed. The image above shows the steps: first, download the osTicket installation file. Then, open the folder, drag it to the desktop, and extract all the files needed to install osTicket.
+osTicket is a cost-effective ticketing system used to manage customer communication and support. It also keep both customer and staff accountable. To use osTicket, several applications must be installed. The image above shows the process to download the osTicket, first download the osTicket installation file. Then, open the folder, drag it to the desktop, and extract all the files needed to install osTicket sytem which is many companies used for help desk communication.
 
 
 <br />
