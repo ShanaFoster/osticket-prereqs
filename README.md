@@ -171,7 +171,7 @@ Next I opened IIS manager, reload the server by stoping and restarting it. To la
 
 </p>
 <br />
-After the osTicket is be launch some application were disable that should be enable for the osTicket to properly function.  To enable the required disabled items. I naviagte to IIS manager, select to the PHP manager, and enable the disable items:
+After the osTicket system is being launch some application were disable that should be enable for the osTicket to properly function. To enable the required disabled items. I navigate to IIS manager, select to the PHP manager, and enable the disable items:
 - php_imap.dll
 - php_intl.dll
 - php_opcache.dll
