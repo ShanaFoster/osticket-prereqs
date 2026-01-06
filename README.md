@@ -109,7 +109,7 @@ To enable CGI, I navigated to IIS > Application Development > Application Develo
 </p>
 
 
-The osTicketing system is a web-based help desk that needs several applications to work correctly. These include the list of application below wihich shows the images above. 
+The osTicketing system is a web-based help desk program use for communication that require several applications to work correctly. These include the list of application below wihich shows the images above. 
 
 -PHPManagerForIIS_V1.5.0 ,
 -Rewrite_amd64_en-US ,
