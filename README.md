@@ -186,8 +186,30 @@ The images shows the osTicket system correctly launch but there are some applica
 
 ![image](https://github.com/user-attachments/assets/846d0fcd-6f12-49b3-b8c9-bb4f34bb2a29)
 
-The image above shows Everyone has been granted permission to make changes to osTicket system.
-to do this, I navigated to the c:drive,inetpub\wwwroot\osTicket\include\ost-config.php > properties> secuirty.I remove inheritance and then add new permission. In the Principal window, I chose Everyone, then select Full Control,then ok to apply the changes.
+
+To grant everyone permission to make changes to the osTicket system I follow these steps:
+
+File explorer > 
+
+*C:\inetpub\wwwroot\osTicket\include*
+
+Located the file ost-sampleconfig.php right click and rename it to ost-config.php.
+
+Right-clicked the file and selected Properties.
+
+Opened the Security tab and clicked Advanced.
+
+Disabled inherited permissions by selecting Disable inheritance.
+
+Added a new permission entry.
+
+In the Principal field, selected Everyone.
+
+Assigned Full Control permissions.
+
+Clicked OK and applied the changes.
+
+Giving access to everyone is not permitted in the real world for security reasons.
 
 <br />
 </p>
