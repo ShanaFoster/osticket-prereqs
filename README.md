@@ -59,7 +59,7 @@ Remote Desktop Protocol (RDP) primarily uses Transmission Control Protocol (TCP)
 <br />
 </p>
 
-osTicket is a cost-effective ticketing system used to manage customer communication and support. It also keep both customer and staff accountable. To use osTicket, several applications must be installed. The image above shows the process to download the osTicket, first download the osTicket installation file. Then, open the folder, drag it to the desktop, and extract all the files needed to install osTicket sytem which is many companies used for help desk communication.
+osTicket is a cost-effective ticketing system used to manage customer communication and support. It also keep both customer and staff accountable. To use osTicket, several applications must be installed. The image above shows the process to download the osTicket, first download the osTicket installation file. Then, open the folder, drag it to the desktop, and extract all the files needed to install osTicket system which many companies used for help desk communication.
 
 
 <br />
@@ -153,11 +153,9 @@ PHP Manager plays an important role in the osTicketing system. After installing 
 </p>
 <br />
 
-The images above demonstrates the osticket being installed and launched. To install the osTicket, I navigate to the osTicket installation file, extract all contents from osTicket-v1.15.8.This created a second osTicket folder. Inside that folder, I located upload folder.
+To install the osTicket, I navigated to the osTicket installation file, extract all contents from osTicket-v1.15.8.This created a second osTicket folder. Inside that folder, I located upload folder. Then I navigated to the C:drive > Inetpub > wwwroot and I copied the upload folder into wwwrooot. After that, I rename the upload folder to osTicket.
 
-I then navigated to the C:drive > Inetpub > wwwroot and I copied the upload folder into wwwrooot. After that, I rename the upload folder to osTicket.
-
-Next I opened IIS manager, reload the server by stoping and restarting it. To launch osTicket, I navigated to Sites > Default Site > osTicket, then select Browse 80 HTTP launch osTicket system. If the system doesn't launch, it means something was configured incorrectly.
+Next I opened IIS manager, reload the server by stoping and restarting it. To launch osTicket, I navigated to Sites > Default Site > osTicket, then selected Browse 80 HTTP launch osTicket system. If the system doesn't launch, it means something wasn't configured correctly. The image above demonstrates a picture of the sTicketing system being launched.  
 
 <br />
 </p>
