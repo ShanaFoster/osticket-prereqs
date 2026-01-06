@@ -38,7 +38,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 ![image](https://github.com/user-attachments/assets/aca4c194-3abf-46a9-9365-0c6db79e8103)
 <br />
 </p>
-Microsoft Azure is Microsoft’s cloud platform that lets you store and process data without physical hardware. You only pay for what you use once you turn off the virtual machine or delete the resource group. Companies create resource group to organize resources, which must exist before creating a virtual machine. The image shows a Windows 10 2022 64-bit virtual machine in Azure. The public IP address was used to connect via Remote Desktop. After completing the task, I deleted the resource group, which removed all resources and helped save costs.
+Microsoft Azure is Microsoft’s cloud platform that lets you store and process data without physical hardware. You only pay for what you use, once you turn off the virtual machine or delete the resource group. Companies create resource group to organize resources, which must exist before creating a virtual machine. The image shows a Windows 10 2022 64-bit virtual machine in Azure. The public IP address was used to connect via Remote Desktop. After completing the task, I deleted the resource group, which removed all resources and helped save costs.
 
 
 <br />
