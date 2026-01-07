@@ -43,7 +43,6 @@ Microsoft Azure is Microsoft’s cloud platform that lets you store and process 
 
 <br />
 </p>
-<p>
 
 ![image](https://github.com/user-attachments/assets/c6728959-b634-4728-bdf9-d0060ec3972c)
 <br />
