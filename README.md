@@ -70,7 +70,7 @@ osTicket is a cost-effective ticketing system designed to manage customer commun
 <br />
 </p>
 
-The loopback address is used to check the function of your computer’s network. The image above shows the loopback IP address (127.0.0.1) being used for testing before Internet Information Services (IIS) is enabled.
+The loopback address allows the computer to communicate with itself without physical network interface. The image above shows the loopback IP address (127.0.0.1) being used for testing before Internet Information Services (IIS) is enabled.
 
 <br />
 </p>
