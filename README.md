@@ -38,7 +38,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 ![image](https://github.com/user-attachments/assets/aca4c194-3abf-46a9-9365-0c6db79e8103)
 <br />
 </p>
-Microsoft Azure is Microsoft’s cloud platform that lets you store and process data without physical hardware. You only pay for what you use,something similar to utility bills. Once you turn off the virtual machine or delete the resource group the stops. Companies create resource group to organize resources, which must exist before creating a virtual machine. The image shows a Windows 10 2022 64-bit virtual machine in Azure. The public IP address was used to connect via Remote Desktop. After completing the task, I deleted the resource group, which removed all resources and helped save costs.
+Microsoft Azure is Microsoft’s cloud platform that lets you store and process data without physical hardware. You only pay for what you use, something similar to utility bills. Once you turn off the virtual machine or delete the resource group the charges stops. Companies create resource group to organize resources, which must exist before creating a virtual machine. The image shows a Windows 10 2022 64-bit virtual machine in Azure. The public IP address was used to connect via Remote Desktop. After completing the task, I deleted the resource group, which removed all resources and helped save costs.
 
 
 <br />
@@ -59,7 +59,7 @@ Remote Desktop Protocol (RDP) primarily uses Transmission Control Protocol (TCP)
 <br />
 </p>
 
-osTicket is a cost-effective ticketing system used to manage customer communication and support. It also keep both customer and staff accountable. To use osTicket, several applications must be installed. The image above shows the process to download the osTicket, first download the osTicket installation file. Then, open the folder, drag it to the desktop, and extract all the files needed to install osTicket system which many companies used for help desk communication.
+osTicket is a cost-effective ticketing system designed to manage customer communication and technical support. It also keep both customers and staff accountable. To deploy osTicket, several applications must be installed. First download the osTicket installation file. Then, open the folder, drag it to the desktop, and extract all the required files for installation. osTicket system is commonly used by many companies for efficient help desk communication. The image above demonstrates osTicket being download.
 
 
 <br />
