@@ -108,7 +108,7 @@ To enable CGI, I navigated to IIS > Application Development > Application Develo
 </p>
 
 
-The osTicketing system is a web-based help desk program use for communication that require several applications to work correctly. These include the list of application below wihich shows the images above. 
+The osTicketing system is a web-based help desk program use for communication that require several applications to work correctly. These include the list of application below which shows the images above. 
 
 -PHPManagerForIIS_V1.5.0 ,
 -Rewrite_amd64_en-US ,
@@ -138,7 +138,7 @@ The system also shows important MySQL server details, such as the root username 
 
 
 
-PHP Manager plays an important role in the osTicketing system. After installing it, registration is required. I open the Control Panel, select IIS, and run it as an administrator. Once IIS opens, I select Register PHP Manager and browse to the executable file php-cgi.exe located on the C: drive. After registering PHP Manager, I stop and restart the web server to apply the changes.
+PHP Manager plays an important role in the osTicketing system. After installing it, registration is required. I opened the Control Panel, select IIS, and run it as an administrator. Once IIS opens, I select Register PHP Manager and browse to the executable file php-cgi.exe located on the C: drive. After registering PHP Manager, I stop and restart the web server to apply the changes.
 <br />
 </p>
 <p>
@@ -152,7 +152,7 @@ PHP Manager plays an important role in the osTicketing system. After installing 
 </p>
 <br />
 
-To install the osTicket, I navigated to the osTicket installation file, extract all contents from osTicket-v1.15.8.This created a second osTicket folder. Inside that folder, I located upload folder. Then I navigated to the C:drive > Inetpub > wwwroot and I copied the upload folder into wwwrooot. After that, I rename the upload folder to osTicket.
+To install the osTicket, I navigated to the osTicket installation file, extract all contents from osTicket-v1.15.8.This created a second osTicket folder. Inside that folder, I located upload folder. Then I navigated to the C:drive > Inetpub > wwwroot and I copied the upload folder into wwwrooot. After that, I renamed the upload folder to osTicket.
 
 Next I opened IIS manager, reload the server by stoping and restarting it. To launch osTicket, I navigated to Sites > Default Site > osTicket, then selected Browse 80 HTTP launch osTicket system. If the system doesn't launch, it means something wasn't configured correctly. The image above demonstrates a picture of the sTicketing system being launched.  
 
@@ -168,7 +168,7 @@ Next I opened IIS manager, reload the server by stoping and restarting it. To la
 
 </p>
 <br />
-After the osTicket system is being launch some application were disable that should be enable for the osTicket to properly function. To enable the required disabled items. I navigate to IIS manager, select to the PHP manager, and enable the disable items:
+After the osTicket system is being launched some applications were disabled that should have been enabled for the osTicket to properly function. To enable the required disabled items. I navigated to IIS manager, select to the PHP Manager, and enable the disable items:
 - php_imap.dll
 - php_intl.dll
 - php_opcache.dll
