@@ -66,6 +66,8 @@ After the virtual machine being created a public IP address is assigned which is
 </p>
 
 ![image](https://github.com/user-attachments/assets/c6728959-b634-4728-bdf9-d0060ec3972c)
+<img width="1280" height="633" alt="Screenshot 2025-05-14 131309" src="https://github.com/user-attachments/assets/ca7c9f04-034a-4b09-84ad-dc9b04fc6997" />
+
 <br />
 </p>
 
