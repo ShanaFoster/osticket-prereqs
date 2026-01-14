@@ -34,8 +34,14 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <br />
 
 
+<img width="757" height="582" alt="Screenshot 2026-01-13 191031" src="https://github.com/user-attachments/assets/69516c5f-3fcf-486f-91aa-0f1cb8a549a1" />
+<img width="756" height="595" alt="Screenshot 2026-01-13 191135" src="https://github.com/user-attachments/assets/460a0898-b929-4c37-ac05-2f106ef13242" />
+<img width="756" height="595" alt="Screenshot 2026-01-13 191135" src="https://github.com/user-attachments/assets/46a3bcef-a650-4397-abfb-0f8db8211c03" />
+
+
 
 ![image](https://github.com/user-attachments/assets/aca4c194-3abf-46a9-9365-0c6db79e8103)
+
 <br />
 </p>
 I created a virtual machine (VM) in Microsoft Azure in order to obtain a public IP address and access a Remote Desktop session to configure osTicket.  The Steps to creating the VM:
