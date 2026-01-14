@@ -44,12 +44,12 @@ I created a virtual machine (VM) in Microsoft Azure in order to obtain a public 
 2. Click on Create Virtual Machine,
 3. Scroll to Resource group and create a rescource group name osTicket
 4. Scroll to Virtual Machine and name it osTicket-vm
-5. Select the region the you want
-6. Scroll to image and select (Windows 10)
+5. Select the Region the you want
+6. Scroll to Image and select (Windows 10)
 7. Pick a VM with 2 vCPUs
-8. Then scroll to adminstator account and create user name & password
-9. Scroll down the bottom to make sure the licensing confirmation is checked
-10. Click Next for disk and then next for networking
+8. Then scroll to Adminstator account and create user name & password
+9. Scroll down the bottom to make sure the Licensing confirmation is checked
+10. Click Next for Disk and then next for Networking
 11. Click review and create and allow validation to pass and create virtual machine.
 
 After the virtual machine being created a public IP address is assigned which is used to connect to the VM via Remote Desktop. Them images above show screenshot of the Virtual michine created in Mircosoft Azure. 
