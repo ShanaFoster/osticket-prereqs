@@ -87,7 +87,11 @@ Once remote desktop session is sucessfully connected, I have full access to the 
 <br />
 </p>
 
-osTicket is a cost-effective ticketing system designed to manage customer communication and technical support. It also keep both customers and staff accountable. To deploy osTicket, several applications must be installed. First download the osTicket installation file. Then, open the folder, drag it to the desktop, and extract all the required files for installation. osTicket system is commonly used by many companies for efficient help desk communication. The image above demonstrates osTicket being download and shows the list of applications needed to be installed as well.
+To deploy osTicket, several applications must be installed.
+1. Download the osTicket installation file.
+2. Open the folder, drag it to the desktop
+3. Extract all the required files for installation.
+The image above demonstrates osTicket being download and shows the list of applications needed to be installed as well.
 
 
 <br />
