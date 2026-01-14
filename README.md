@@ -177,7 +177,13 @@ The system also shows important MySQL server details, such as the root username 
 
 
 
-PHP Manager plays an important role in the osTicketing system. After installing it, registration is required. I opened the Control Panel, select IIS, and run it as an administrator. Once IIS opens, I select Register PHP Manager and browse to the executable file php-cgi.exe located on the C: drive. After registering PHP Manager, I stop and restart the web server to apply the changes.
+PHP Manager registration is required so I follow these steps:
+1. I opened the Control Panel
+2. Select IIS, and run it as an Administrator. 
+3. Once IIS opens, I select Register PHP Manager and 
+4. Browse to the executable file php-cgi.exe located on the C: drive. After registering PHP Manager, 
+5. Then stop and restart the web server to apply the changes.
+
 <br />
 </p>
 <p>
