@@ -120,7 +120,11 @@ The loopback address allows the computer to communicate with itself without phys
 
 Internet Information Services (IIS) and Computer-Generated Imagery (CGI) can be enabled by navigating to Control Panel > Programs > Turn Windows features on or off, and then selecting Internet Information Services.
 
-To enable CGI, I navigated to IIS > Application Development > Application Development Features, and then selected CGI. After completing these steps, I returned to the web server to check the connection, as shown above, to confirm that IIS and CGI were enabled.
+To enable CGI:
+1. I navigated to IIS
+2. Application Development
+3. Application Development Features,
+4. Select CGI. After completing these steps, I returned to the web server to check the connection, as shown above, to confirm that IIS and CGI were enabled.
 
 <br />
 </p>
