@@ -225,25 +225,25 @@ After the osTicket system is being launched some applications were disabled that
 
 To grant everyone permission to make changes to the osTicket system I follow these steps:
 
-File explorer > 
+1. Opern file explorer > 
 
-*C:\inetpub\wwwroot\osTicket\include*
+2. Navigate to C:\inetpub\wwwroot\osTicket\include*
 
-Located the file ost-sampleconfig.php right click and rename it to ost-config.php.
+3. Located the file ost-sampleconfig.php right click and rename it to ost-config.php.
 
-Right-clicked the file and selected Properties.
+4. Right-clicked the file and selected Properties.
 
-Opened the Security tab and clicked Advanced.
+5. Opened the Security tab and clicked Advanced.
 
-Disabled inherited permissions by selecting Disable inheritance.
+6. Disabled inherited permissions by selecting Disable inheritance.
 
-Added a new permission entry.
+7. Added a new permission entry.
 
-In the Principal field, selected Everyone.
+8. In the Principal field, selected Everyone.
 
-Assigned Full Control permissions.
+9. Assigned Full Control permissions.
 
-Clicked OK and applied the changes.
+10. Clicked OK and applied the changes.
 
 Giving access to everyone is not permitted in the real world for security reasons.
 
