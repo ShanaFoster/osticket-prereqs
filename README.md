@@ -69,7 +69,15 @@ After the virtual machine being created a public IP address is assigned which is
 <br />
 </p>
 
-Remote Desktop Protocol (RDP) primarily uses Transmission Control Protocol (TCP) on port 3389. It enables a remote connection between a client and a host system, allowing users to control and access a device as if they were physically present. The image demonstrates an active Remote Desktop session using a public IP address provided by Microsoft Azure. This connection is used to remotely access the virtual machine.
+The public IP address I obtained from the Virtual Machine was used to connect virtually via Remote Desktop session to configure the osTicket. Steps I followed:
+
+1. Nagivate to Virtual Machine
+2. Select osTicket-vm
+3. Copy public IP address
+4. Open Remote desktop connection
+5. Paste Public IP address, click connect
+6. Enter User and Password created when setting up the virtual machine
+Once remote desktop session is sucessfully connected, I have full access to the session where I configured the osTicket. The image demonstrates an active Remote Desktop session using a public IP address provided by Microsoft Azure.
 
 <br />
 </p>
