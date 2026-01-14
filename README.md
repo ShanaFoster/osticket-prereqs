@@ -38,7 +38,23 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 ![image](https://github.com/user-attachments/assets/aca4c194-3abf-46a9-9365-0c6db79e8103)
 <br />
 </p>
-Microsoft Azure is Microsoft’s cloud platform that lets you store and process data without physical hardware. You only pay for what you use, something similar to utility bills. Once you turn off the virtual machine or delete the resource group the charges stops. Companies create resource group to organize resources, which must exist before creating a virtual machine. The image shows a Windows 10 2022 64-bit virtual machine in Azure. The public IP address was used to connect via Remote Desktop. After completing the task, I deleted the resource group, which removed all resources and helped save costs.
+I created a virtual machine (VM) in Microsoft Azure in order to obtain a public IP address and access a Remote Desktop session to configure osTicket.  The Steps to creating the VM:
+
+1. Log in Microsoft Auzre,
+2. Click on Create Virtual Machine,
+3. Scroll to Resource group and create a rescource group name osTicket
+4. Scroll to Virtual Machine and name it osTicket-vm
+5. Select the region the you want
+6. Scroll to image and select (Windows 10)
+7. Pick a VM with 2 vCPUs
+8. Then scroll to adminstator account and create user name & password
+9. Scroll down the bottom to make sure the licensing confirmation is checked
+10. Click Next for disk and then next for networking
+11. Click review and create and allow validation to pass and create virtual machine.
+
+After the virtual machine being created a public IP address is assigned which is used to connect to the VM via Remote Desktop. Them images above show screenshot of the Virtual michine created in Mircosoft Azure. 
+  
+
 
 
 <br />
